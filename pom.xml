@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <!--modelVersion pom文件的模型版本-->
+    <modelVersion>4.0.0</modelVersion>
+    <!--groupId 一般是指 com.公司名.项目名 (项目的唯一标识，需遵循Java的包名称规则)-->
+    <groupId>com.jamelli88.utils</groupId>
+    <!--功能模块名-->
+    <artifactId>jl-utils-parent</artifactId>
+    <packaging>pom</packaging>
+    <!--项目的版本-->
+    <version>1.0.0-SNAPSHOT</version>
+
+    <modules>
+        <module>jl-utils-http</module>
+    </modules>
+
+</project>
